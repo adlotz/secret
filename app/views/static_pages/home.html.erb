@@ -1,10 +1,10 @@
 <div class="center jumbotron">
-<% if logged_in? %>
-	<%= link_to 'Acceder a la page secrete..', secret_path, class: 'btn btn-lg btn-primary' %>
-<% else%>
-	<a href='/login' onclick="$test=1" class='btn btn-lg btn-primary'>Acceder a la page secrete..</a>
 
 
+  <% if logged_in? %>
+  <h1>Tu es connecté!</h1>
+	<%= link_to 'La verité te sera rêvélée', secret_path, class: 'btn btn-lg btn-primary' %>
+	<% else%>
   <h1>Bienvenue !</h1>
   <h3>
     Ici, tu peux t'enregistrer 🎓
