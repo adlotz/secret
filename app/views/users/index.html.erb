@@ -1,0 +1,21 @@
+<h1>Liste des user</h1>
+
+<td><%= link_to 'Espace de rédaction', new_user_path %></td>
+
+<br/>
+
+
+<table>
+  <tr>
+    <th>Prénom</th>
+    <th>Age</th>
+  </tr>
+ 
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.email %></td>
+      <td><%= user.password %></td>
+      <td><%= link_to 'Show', user_path(user) %></td>
+    </tr>
+  <% end %>
+</table>

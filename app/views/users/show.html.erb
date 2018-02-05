@@ -1,0 +1,11 @@
+ <h1>la vue </h1>
+<% provide(:title, @user.email) %>
+<h1>
+  <%= gravatar_for @user %>
+  <%= @user.email %>
+</h1>
+
+<p>
+	<td><%= link_to 'Edition', edit_user_path %></td>
+	<td><%= link_to 'Retour à la liste', user_path %></td>
+</p>
