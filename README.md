@@ -9,5 +9,5 @@ Ce repo git hub avait pour objectif d'adapter le contenu du site en fonction de 
 
 ### Tu peux retrouver l'application sur ce lien Heroku https://secretal.herokuapp.com
 
-tu peux te loger avec le compte **test@test.test**, le mot de passe est **tester**.
+tu peux te loger avec le compte `test@test.test`, le mot de passe est `tester`.
 
