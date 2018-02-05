@@ -7,7 +7,7 @@
 Ce repo git hub avait pour objectif d'adapter le contenu du site en fonction de la condition login, log out. Du contenu n'est disponible que lorsque l'utilisateur s'est identitifié.
 <br/>
 
-### Tu peux retrouver l'application sur ce lien [Heroku](https://secretal.herokuapp.com/(SQL)
+### Tu peux retrouver l'application sur ce lien Heroku https://secretal.herokuapp.com
 
 tu peux te loger avec le compte **test@test.test**, le mot de passe est **tester**.
 
