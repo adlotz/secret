@@ -5,7 +5,7 @@ class StaticPagesController < ApplicationController
   def secret
   	
   	unless logged_in?
-  		flash[:danger] = 'You must be connected to know about the secret !'
+  		flash[:danger] = "Bien essayé petit malin, connecte toi c'est plus poli !"
   		redirect_to login_path
 	end
 
